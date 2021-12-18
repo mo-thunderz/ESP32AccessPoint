@@ -23,7 +23,7 @@ void setup() {
   Serial.print("Setting up Access Point ... ");
   Serial.println(WiFi.softAPConfig(local_IP, gateway, subnet) ? "Ready" : "Failed!");
 
-  Serial.print("Setting AP ... ");
+  Serial.print("Starting Access Point ... ");
   Serial.println(WiFi.softAP(ssid, password) ? "Ready" : "Failed!");
 
   Serial.print("IP address = ");
